@@ -7,7 +7,7 @@ web_page = "https://github.com/channelcat/sanic"
 last_update = None
 all_info = requests.get(api).json()
 cur_update = all_info['updated_at']
-print(cur_update)
+# print(cur_update)
 
 while True:
     if not last_update:
